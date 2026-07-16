@@ -1,31 +1,31 @@
-# 🐧 Penguin Species Classification using Machine Learning
+# Penguin Species Classification using Machine Learning
 
 A machine learning project that predicts the species of a penguin based on its physical characteristics using the **Palmer Penguins Dataset**. This project demonstrates the complete ML workflow—from data preprocessing to model training and evaluation.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The goal of this project is to classify penguins into one of three species:
 
-* 🐧 Adelie
-* 🐧 Chinstrap
-* 🐧 Gentoo
+* Adelie
+* Chinstrap
+* Gentoo
 
 The model learns patterns from features such as bill dimensions, flipper length, body mass, island, sex, and year to accurately identify the penguin species.
 
 ---
 
-## 🚀 Features
+## Features
 
-* ✅ Data loading using the Palmer Penguins dataset
-* ✅ Missing value handling
-* ✅ Data cleaning and preprocessing
-* ✅ Feature encoding
-* ✅ Train-test split
-* ✅ Random Forest Classification
-* ✅ Decision Tree Classification
-* ✅ Model evaluation using:
+* Data loading using the Palmer Penguins dataset
+* Missing value handling
+* Data cleaning and preprocessing
+* Feature encoding
+* Train-test split
+* Random Forest Classification
+* Decision Tree Classification
+* Model evaluation using:
 
   * Accuracy Score
   * Confusion Matrix
@@ -33,7 +33,7 @@ The model learns patterns from features such as bill dimensions, flipper length,
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Dataset:** Palmer Penguins
 
@@ -57,7 +57,7 @@ The dataset contains biological measurements collected from penguins living in A
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -67,9 +67,8 @@ The dataset contains biological measurements collected from penguins living in A
 
 ---
 
-## 📊 Machine Learning Workflow
+## Machine Learning Workflow
 
-```text
 Load Dataset
       │
       ▼
@@ -79,30 +78,38 @@ Data Cleaning
 Handle Missing Values
       │
       ▼
-Encode Categorical Features
+Exploratory Data Analysis (EDA)
+      │
+      ▼
+Feature Encoding
       │
       ▼
 Train-Test Split
       │
       ▼
-Train ML Models
+Model Training
+(Random Forest & Decision Tree)
       │
       ▼
 Model Evaluation
-```
+(Accuracy, Confusion Matrix, Classification Report)
+      │
+      ▼
+Species Prediction
+
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
-### 🌲 Random Forest Classifier
+### Random Forest Classifier
 
 * Ensemble learning algorithm
 * High accuracy
 * Reduces overfitting
 * Better generalization
 
-### 🌳 Decision Tree Classifier
+### Decision Tree Classifier
 
 * Easy to understand
 * Useful for comparison
@@ -110,7 +117,7 @@ Model Evaluation
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 The models are evaluated using:
 
@@ -123,9 +130,9 @@ The models are evaluated using:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
 Penguin-Species-Classification/
 │
 ├── Penguin_Classification.ipynb
@@ -137,7 +144,7 @@ Penguin-Species-Classification/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Clone the repository
 
@@ -163,7 +170,7 @@ Open the Jupyter Notebook and execute all cells.
 
 ---
 
-## 💡 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I learned:
 
@@ -177,31 +184,7 @@ Through this project, I learned:
 
 ---
 
-## 📌 Future Improvements
 
-* Hyperparameter tuning
-* Cross-validation
-* Feature importance visualization
-* Model deployment using Flask or Streamlit
-* Interactive web application
+## Support
 
----
-
-## 🙋‍♀️ Author
-
-**Yuvashree**
-
-Computer Science and Business Systems Student
-
-Interested in:
-
-* Machine Learning
-* Artificial Intelligence
-* Data Science
-* Python Development
-
----
-
-## ⭐ If you found this project useful...
-
-Please consider giving this repository a **⭐ Star** on GitHub!
+If you found this project useful, consider giving this repository a **Star** ⭐ on GitHub.
