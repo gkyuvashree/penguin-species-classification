@@ -69,6 +69,7 @@ The dataset contains biological measurements collected from penguins living in A
 
 ## Machine Learning Workflow
 
+```text
 Load Dataset
       │
       ▼
@@ -96,6 +97,7 @@ Model Evaluation
       │
       ▼
 Species Prediction
+```
 
 
 ---
