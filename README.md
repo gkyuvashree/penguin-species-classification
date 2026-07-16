@@ -14,22 +14,6 @@ The goal of this project is to classify penguins into one of three species:
 
 The model learns patterns from features such as bill dimensions, flipper length, body mass, island, sex, and year to accurately identify the penguin species.
 
----
-
-## Features
-
-* Data loading using the Palmer Penguins dataset
-* Missing value handling
-* Data cleaning and preprocessing
-* Feature encoding
-* Train-test split
-* Random Forest Classification
-* Decision Tree Classification
-* Model evaluation using:
-
-  * Accuracy Score
-  * Confusion Matrix
-  * Classification Report
 
 ---
 
